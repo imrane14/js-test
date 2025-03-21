@@ -6,3 +6,8 @@ function printGitHubUserName() {
 }
 console.log(add(5, 3));
 printGitHubUserName();
+function reverseWords( sentence ) {
+    return sentence.split(' ').reverse().join(' ');
+}
+console.log(reverseWords(" I love 
+    programming"));
